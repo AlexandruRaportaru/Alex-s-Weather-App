@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: black;
+    background-image: url("https://source.unsplash.com/1920x1080/?romania");
+}
+
+.card {
+    background: #000000d9;
+    color: white;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1.title {
+    text-align: center;
+    margin-top: 0;
+    background: -webkit-linear-gradient(120deg, #00ffee, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search button {
+    margin: 0.5rem 0;
+    border-radius: 50%;
+    border: none;
+    height: 40px;
+    width: 40px;
+    outline: none;
+    background: #7c7c7c6b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.search button:hover {
+    background: #7c7c7c4b;
+}
+
+.search input {
+    margin: 0.5rem 0;
+    border: none;
+    outline: none;
+    padding: 0.4rem 1rem;
+    border-radius: 24px;
+    background: #7c7c7c6b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 80px);
+}
+
+.weather.loading {
+    display: none;
+}
+
+.weather h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.city {
+    margin-bottom: 0;
+}
+
+.city-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 14px;
+}
+
+.icon-content {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 33.33%;
+    text-align: center;
+}
+
+.description {
+    text-transform: capitalize;
+    position: absolute;
+    top: 76px;
+}
