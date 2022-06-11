@@ -1,3 +1,3 @@
-You can see my final project here: 
+# You can see my final project here: 
 
-https://alexandruraportaru.github.io/Alex-s-Weather-App/
+# https://alexandruraportaru.github.io/Alex-s-Weather-App/
