@@ -8,6 +8,7 @@ body {
     min-height: 100vh;
     background: black;
     background-image: url("https://source.unsplash.com/1920x1080/?romania");
+    background-size: cover;
 }
 
 .card {
